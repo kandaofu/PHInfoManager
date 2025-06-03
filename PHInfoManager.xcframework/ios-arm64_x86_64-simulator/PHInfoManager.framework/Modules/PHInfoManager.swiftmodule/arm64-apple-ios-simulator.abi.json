@@ -1,0 +1,564 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PHInfoManager",
+    "printedName": "PHInfoManager",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PHInfoManager",
+        "printedName": "PHInfoManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setDeviceJson",
+            "printedName": "setDeviceJson(fvID:encryptionKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PHInfoManagerAAC13setDeviceJson4fvID13encryptionKeyS2S_SStFZ",
+            "mangledName": "$s13PHInfoManagerAAC13setDeviceJson4fvID13encryptionKeyS2S_SStFZ",
+            "moduleName": "PHInfoManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setHomePop",
+            "printedName": "setHomePop(popImage:closeText:didSelect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PHInfoManagerAAC10setHomePop8popImage9closeText9didSelectySo11UIImageViewC_SSyyctFZ",
+            "mangledName": "$s13PHInfoManagerAAC10setHomePop8popImage9closeText9didSelectySo11UIImageViewC_SSyyctFZ",
+            "moduleName": "PHInfoManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadsCustom",
+            "printedName": "loadsCustom(with:didClick:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PHInfoManagerAAC11loadsCustom4with8didClickySo11UIImageViewC_yyctFZ",
+            "mangledName": "$s13PHInfoManagerAAC11loadsCustom4with8didClickySo11UIImageViewC_yyctFZ",
+            "moduleName": "PHInfoManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customShow",
+            "printedName": "customShow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PHInfoManagerAAC10customShowyyFZ",
+            "mangledName": "$s13PHInfoManagerAAC10customShowyyFZ",
+            "moduleName": "PHInfoManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customHide",
+            "printedName": "customHide()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13PHInfoManagerAAC10customHideyyFZ",
+            "mangledName": "$s13PHInfoManagerAAC10customHideyyFZ",
+            "moduleName": "PHInfoManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHInfoManager",
+                "printedName": "PHInfoManager.PHInfoManager",
+                "usr": "c:@M@PHInfoManager@objc(cs)PHInfoManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PHInfoManager@objc(cs)PHInfoManager(im)init",
+            "mangledName": "$s13PHInfoManagerAACABycfc",
+            "moduleName": "PHInfoManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PHInfoManager@objc(cs)PHInfoManager",
+        "mangledName": "$s13PHInfoManagerAAC",
+        "moduleName": "PHInfoManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PHInfoManager"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "FloatLiteral",
+      "offset": 504,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 642,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 822,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 3,
+      "value": "306"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 895,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 933,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1153,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1336,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1362,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1373,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1385,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1484,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1529,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1585,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "FloatLiteral",
+      "offset": 1587,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1601,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "FloatLiteral",
+      "offset": 1605,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 3,
+      "value": "212"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "FloatLiteral",
+      "offset": 1622,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHHomeGetPopUp.swift",
+      "kind": "FloatLiteral",
+      "offset": 1636,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 625,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 710,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2685,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2689,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2760,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/DeviceLib\/DeviceLib\/DeviceInfo\/PHWindsHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 3133,
+      "length": 4,
+      "value": "0.23"
+    }
+  ]
+}
