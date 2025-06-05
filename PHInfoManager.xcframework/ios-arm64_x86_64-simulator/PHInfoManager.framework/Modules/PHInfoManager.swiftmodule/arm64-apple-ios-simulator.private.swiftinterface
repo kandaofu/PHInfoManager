@@ -1,0 +1,135 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PHInfoManager
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import SystemConfiguration.CaptiveNetwork
+import CoreTelephony
+import CryptoKit
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor @preconcurrency public static var totalMemorySize: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var usedMemorySize: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var batteryChargeLevel: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isDeviceFull: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isDeviceCharging: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var deviceModelName: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isConnectedUsingVPN: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var width: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var height: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var nativeWidth: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var nativeHeight: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var nativeSize: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var safeTop: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var safeBottom: CoreFoundation.CGFloat {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isRunningOnSimulator: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isDeviceJailbroken: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var currentLanguageCode: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var phoneType: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var timeZone: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var release: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var networkType: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var wifiName: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var wifiMac: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var isProxyServerEnabled: Swift.Int {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var totalDiskSize: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var freeDiskSize: Swift.String {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public static var deviceIpAddress: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class DeviceManager : ObjectiveC.NSObject {
+  public static let shared: PHInfoManager.DeviceManager
+  public static func getEncryptInfo(withID id: Swift.String, withKey key: Swift.String, isPrint: Swift.Bool = false) -> Swift.String
+  public static func setHomePop(withImageView popImage: UIKit.UIImageView, buttonText: Swift.String, didSelect: @escaping () -> Swift.Void)
+  public func loadsCustom(with imageView: UIKit.UIImageView, didClick: @escaping () -> Swift.Void)
+  public func customShow()
+  public func customHide()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CoreFoundation.CGFloat {
+  public var intValue: Swift.Int {
+    get
+  }
+  public var stringValue: Swift.String {
+    get
+  }
+  public func kScale() -> CoreFoundation.CGFloat
+}
+extension Swift.Int {
+  public var stringValue: Swift.String {
+    get
+  }
+}
+extension Swift.Int64 {
+  public var stringValue: Swift.String {
+    get
+  }
+}
+extension Swift.UInt64 {
+  public var stringValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIWindow {
+  @_Concurrency.MainActor @preconcurrency public static var top: UIKit.UIWindow? {
+    get
+  }
+}
