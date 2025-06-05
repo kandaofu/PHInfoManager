@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     A binary-only precompiled framework for retrieving iOS device information.
   DESC
   s.homepage         = 'https://github.com/kandaofu/PHInfoManager'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license = { :type => 'Proprietary', :text => 'Binary-only internal distribution. All rights reserved.' }
   s.author           = { 'kandaofu' => '' }
   s.platform         = :ios, '13.0'
 
