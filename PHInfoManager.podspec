@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PHInfoManager'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'Binary-only XCFramework for device info.'
   s.description      = <<-DESC
     A binary-only precompiled framework for retrieving iOS device information.
@@ -11,9 +11,11 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '13.0'
 
   s.source = {
-    :http => 'https://github.com/kandaofu/PHInfoManager/releases/download/1.0.2/PHInfoManager.xcframework.zip'
+    :http => 'https://github.com/kandaofu/PHInfoManager/releases/download/1.0.4/PHInfoManager.xcframework.zip'
   }
 
   s.vendored_frameworks = 'PHInfoManager.xcframework'
+  s.static_framework = true
   s.preserve_paths = 'PHInfoManager.xcframework'
+
 end

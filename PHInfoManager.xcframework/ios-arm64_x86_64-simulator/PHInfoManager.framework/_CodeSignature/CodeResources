@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/PHInfoManager.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MdlisltbiRrAAJO7bdcW7MODr6U=
+		l/J15dK4yYlrQavSoOpWqqTT2Oc=
 		</data>
 		<key>Modules/PHInfoManager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PHInfoManager.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MdlisltbiRrAAJO7bdcW7MODr6U=
+		l/J15dK4yYlrQavSoOpWqqTT2Oc=
 		</data>
 		<key>Modules/PHInfoManager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -100,11 +100,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MdlisltbiRrAAJO7bdcW7MODr6U=
+			l/J15dK4yYlrQavSoOpWqqTT2Oc=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6XVkJdRcePjaASBynQoTlb7YZgkREaY+DTupSJ36zM=
+			9FvGZi0vwF9XhKKfDCDqk4QMCvL3NkgxigA/iYgQdCU=
 			</data>
 		</dict>
 		<key>Modules/PHInfoManager.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -155,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MdlisltbiRrAAJO7bdcW7MODr6U=
+			l/J15dK4yYlrQavSoOpWqqTT2Oc=
 			</data>
 			<key>hash2</key>
 			<data>
-			D6XVkJdRcePjaASBynQoTlb7YZgkREaY+DTupSJ36zM=
+			9FvGZi0vwF9XhKKfDCDqk4QMCvL3NkgxigA/iYgQdCU=
 			</data>
 		</dict>
 		<key>Modules/PHInfoManager.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
